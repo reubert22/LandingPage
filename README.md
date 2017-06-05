@@ -13,10 +13,6 @@ Also, we have to install tasksel and lamp-server, follow the commands:
 $ sudo apt-get install tasksel
 $ sudo tasksel install lamp-server
 ```
-Start Apache Server:
-```sh
-$ sudo systemctl start apache2.service
-```
 To install phpMyAdmin:
 ```sh
 $ sudo apt-get install phpmyadmin
