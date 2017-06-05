@@ -1,36 +1,6 @@
 @extends('layout.app')
 @section('script')
 	<script type="text/javascript">
-		/*var nome = document.forms['vforms']['nome'];
-		var telefone = document.forms['vforms']['telefone'];
-		var email = document.forms['vforms']['email'];
-		var cep = document.forms['vforms']['cep'];
-
-		var nome_error = document.getElementById('inputNome');
-		var telefone_error = document.getElementById('inputTelefone');
-		var email_error = document.getElementById('inputEmail');
-		var cep_error = document.getElementById('cep');
-
-		nome.addEventListener('blur', nomeverify, true);
-		telefone.addEventListener('blur', telefoneverify, true);
-		email.addEventListener('blur', emailverify, true);
-
-		function validacaoCampos(){
-			if (nome.value == "") {
-				nome.style.border = "1px solid red";
-				nome_error.textContent = "Preencha o nome";
-				nome.focus();
-				return false;
-			}
-		}
-		function nomeverify(){
-			if (nome.value != "") {
-				nome.style.border = "1px solid #5E6E66";
-				nome_error.innerHTML = "";
-				return true;
-			}
-		}*/
-
 		  function limpa_formulário_cep() {
 	            //Limpa valores do formulário de cep.
 	            document.getElementById('rua').value=("");

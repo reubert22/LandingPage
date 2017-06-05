@@ -14,7 +14,7 @@ class landingcontroller extends Controller
      */
     public function index()
     {
-        //return view('landing.create');
+        return view('landing.home');
     }
 
     /**
@@ -57,7 +57,7 @@ class landingcontroller extends Controller
         $landing->ibge = $request->input('ibge');
         $landing->save();
         \Session::flash('flash_message','Salvo com sucesso. Entraremos em contato! ');
-        return redirect('landing/create');
+        return redirect('landing');
     }
 
     /**

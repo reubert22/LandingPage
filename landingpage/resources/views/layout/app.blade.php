@@ -8,7 +8,6 @@
 			height: 100%;
 			margin-top: 0px;
 		}
-		
 		div.root{
 			background-image: url(https://www.emprestimoconsignado.com.br/wp-content/imagens/482013441_1-1.jpg);
 			background-size: cover;
@@ -35,7 +34,6 @@
 			border-bottom: 2px solid red;
 			background-color: #ADD8E6;
 		}
-		
 	</style>
 	@section('script')
 	@show
