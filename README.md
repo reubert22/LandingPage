@@ -4,9 +4,11 @@ This is an Landing Page created by Reubert Barbosa
 In the future we're gonna have an credit card named FreeTax, and that's basically for those who don't wanna pay extra money on daily transactions.
 Are u interested? haha I knew it, who don't want!
 # Installation
-FreeTax Landing Page requires the latest Laravel 5.4 version and Composer, check the links below to know how to install them:
- - https://laravel.com/docs/5.4/installation
+First of all, you'll have to download Composer:
  - https://getcomposer.org/download/
+ 
+FreeTax Landing Page requires the latest Laravel 5.4 version, check the links below to know how to install:
+ - https://laravel.com/docs/5.4/installation
 
 Also, we have to install tasksel and lamp-server, follow the commands:
 ```sh
